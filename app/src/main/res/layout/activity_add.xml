@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_add_date"
+        android:inputType="date" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb1"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb2"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edt_note"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+
+</LinearLayout>

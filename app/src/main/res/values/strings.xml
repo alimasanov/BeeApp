@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BeeApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add_date">Дата кладки яйца</string>
+    <string name="rb1">Дата кладки яйца</string>
+    <string name="rb2">Дата однодневной личинки</string>
+    <string name="hive_number">Номер улья</string>
+    <string name="note">Заметка</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+</resources>
